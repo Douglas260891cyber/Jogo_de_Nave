@@ -171,9 +171,10 @@ body {
      to { background-position: -528px; }
 }
 
-/*
-***** js.js. *****
+#disparo {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(../imgs/disparo.png);
+}
 
-class='anima2'
-class='anima3'
-*/
