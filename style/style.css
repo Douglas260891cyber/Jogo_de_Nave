@@ -11,8 +11,8 @@ h1 {
 
 body {
     background-image: url(../imgs/fundo.jpg);
-    overflow-y: hidden;
-    overflow-x: hidden;
+    /* overflow-y: hidden;*/
+    /*overflow-x: hidden;*/
     /*Para não mostrar barra de rolagem*/
 }
 
@@ -234,44 +234,124 @@ body {
 }
 
 #explosao3 {
-	width:44px;
-	height:51px;
-	position:absolute;
+    width: 44px;
+    height: 51px;
+    position: absolute;
 }
 
 .anima4 {
-	width:44px;
-	height:51px;
-	background-image:url(../imgs/amigo_morte.png);
-	animation:play3 .5s steps(7) infinite;
-	-webkit-animation: play3 .5s steps(7) infinite;
-       -moz-animation: play3 .5s steps(7) infinite;
-        -ms-animation: play3 .5s steps(7) infinite;
-         -o-animation: play3 .5s steps(7) infinite;
+    width: 44px;
+    height: 51px;
+    background-image: url(../imgs/amigo_morte.png);
+    animation: play3 .5s steps(7) infinite;
+    -webkit-animation: play3 .5s steps(7) infinite;
+    -moz-animation: play3 .5s steps(7) infinite;
+    -ms-animation: play3 .5s steps(7) infinite;
+    -o-animation: play3 .5s steps(7) infinite;
 }
 
 @keyframes play3 {
-	from {background-position:0px;}
-	to {background-position:-308px;}
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -308px;
+    }
 }
 
 @-webkit-keyframes play3 {
-   from { background-position:    0px; }
-     to { background-position: -308px; }
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -308px;
+    }
 }
 
 @-moz-keyframes play3 {
-   from { background-position:    0px; }
-     to { background-position: -308px; }
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -308px;
+    }
 }
 
 @-ms-keyframes play3 {
-   from { background-position:    0px; }
-     to { background-position: -308px; }
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -308px;
+    }
 }
 
 @-o-keyframes play3 {
-   from { background-position:    0px; }
-     to { background-position: -308px; }
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -308px;
+    }
 }
 
+#placar {
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    top: 590px;
+}
+
+h2 {
+    font-family: Titulo;
+    font-size: 20px;
+    color: #FFF
+}
+
+#energia {
+    width: 140px;
+    height: 38px;
+    position: absolute;
+    left: 750px;
+    top: 7px;
+}
+
+h3 {
+    font-family: Titulo;
+    font-size: 20px;
+    color: #603A03;
+}
+
+#fim {
+    width: 350px;
+    height: 150px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.reinicia-jogo {
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0px;
+    border: none;
+    width: 350px;
+    height: 90px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.reinicia-jogo:hover {
+    cursor: pointer;
+    background-color: #215810;
+    color: white;
+    transition: .6s;
+}
